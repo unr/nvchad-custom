@@ -8,8 +8,6 @@ return {
 
 	-- enable :G :Git
 	["tpope/vim-fugitive"] = {},
-	-- :Gbrowse support for github
-	["tpope/vim-rhubarb"] = {},
 
 	-- keep my windows stable, please
 	["luukvbaal/stabilize.nvim"] = {
