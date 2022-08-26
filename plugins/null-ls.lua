@@ -9,7 +9,10 @@ local b = null_ls.builtins
 
 local sources = {
 	-- format my files
-	b.formatting.prettierd,
+	b.formatting.prettier,
+
+	-- markdown, please!
+	b.diagnostics.markdownlint,
 
 	-- Lua
 	-- b.formatting.stylua,

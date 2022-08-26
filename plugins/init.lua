@@ -6,6 +6,11 @@ return {
 	-- just let me repeat things
 	["tpope/vim-repeat"] = {},
 
+	-- enable :G :Git
+	["tpope/vim-fugitive"] = {},
+	-- :Gbrowse support for github
+	["tpope/vim-rhubarb"] = {},
+
 	-- keep my windows stable, please
 	["luukvbaal/stabilize.nvim"] = {
 		config = function()
@@ -63,6 +68,11 @@ return {
 		end,
 	},
 
-	-- TODO, add in headwind support?
-	-- https://github.com/steelsojka/headwind.nvim
+	-- zen mode
+	["Pocco81/TrueZen.nvim"] = {
+		-- after = "null-ls",
+		config = function()
+			require("custom.plugins.truezen")
+		end,
+	},
 }

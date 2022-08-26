@@ -50,6 +50,9 @@ M.misc = {
       ["<leader>gc"] = { "<cmd> Gitsigns setqflist <CR>", " Show Git Changes" },
       -- I'd like to add more github related actions here
       -- https://github.com/lewis6991/gitsigns.nvim
+
+	  -- Focus with TrueZen
+	  ["<leader>fz"] = { "<cmd> TZAtaraxis <CR>", " Focus Mode"}
    },
 }
 
