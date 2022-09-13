@@ -43,6 +43,9 @@ M.misc = {
       -- run eslint fix, should I make this happen on save?
       ["<leader>fe"] = { "<cmd> EslintFixAll <CR>", " Eslint Fix All" },
 
+	  -- toggle git status
+      ["<leader>gg"] = { "<cmd> G <CR>", " Git Status" },
+
       -- toggle gitsigns gitblame
       ["<leader>gb"] = { "<cmd> Gitsigns toggle_current_line_blame <CR>", " Toggle Git Blame" },
       -- show changes not in git yet, in Trouble
