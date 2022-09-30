@@ -73,4 +73,12 @@ return {
 			require("custom.plugins.truezen")
 		end,
 	},
+
+	-- adding in fancy search/replace functionality
+	['ray-x/guihua.lua'] = {},
+	['ray-x/sad.nvim'] = {
+		config = function()
+			require("custom.plugins.sad")
+		end,
+	},
 }
